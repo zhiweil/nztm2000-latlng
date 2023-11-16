@@ -1,0 +1,27 @@
+{
+  "name": "nztm2000-latlng",
+  "version": "1.0.0",
+  "description": "Convert values between NZTM2000 and latitude/longitude.",
+  "scripts": {
+    "test": "node ./test/runTests.js"
+  },
+  "keywords": [
+    "NZTM2000",
+    "LINZ",
+    "Latitude",
+    "Longitude"
+  ],
+  "author": "Zhiwei Liu <zhiwei.liu19@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhiweil/nztm2000-latlng.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhiweil/nztm2000-latlng/issues"
+  },
+  "homepage": "https://github.com/zhiweil/nztm2000-latlng",
+  "dependencies": {
+    "big.js": "^6.2.1"
+  }
+}
