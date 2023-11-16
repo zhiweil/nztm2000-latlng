@@ -1,6 +1,6 @@
 {
   "name": "nztm2000-latlng",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert values between NZTM2000 and latitude/longitude.",
   "scripts": {
     "test": "node ./test/runTests.js"
