@@ -48,7 +48,7 @@ geod_tm(latitude, longitude); // latitude and longitue are in degrees
 }
 ```
 
-## 2.Test
+## 2. Test
 
 The module replicated the C testing code as well by the following npm script.
 
