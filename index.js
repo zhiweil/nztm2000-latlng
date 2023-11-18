@@ -3,9 +3,6 @@ const Decimal = require("decimal.js");
 /**
  * Define the parameters for the International Ellipsoid
  * used for the NZGD2000 datum (and hence for NZTM).
- *
- * None of the parameters are used, I keep these to be
- * conssitent with the C impementation.
  * */
 const NZTM_A = Decimal("6378137");
 const NZTM_RF = Decimal("298.257222101");
