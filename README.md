@@ -22,8 +22,8 @@ tm_geod(easting, northing); // easting and northig are in meters;
 {
   "easting": 1783295, // in meters, whole number
   "northing": 5868193, // in meters, whole number
-  "latitude": -44.343561, // in degree, six decimal places
-  "longitude": 170.179492 // in degree, six decimal places
+  "latitude": -37.314852, // in degree, six decimal places
+  "longitude": 175.068489 // in degree, six decimal places
 }
 ```
 
@@ -43,8 +43,8 @@ geod_tm(latitude, longitude); // latitude and longitue are in degrees
 {
   "easting": 1783295, // in meters, whole number
   "northing": 5868193, // in meters, whole number
-  "latitude": -44.343561, // in degree, six decimal places
-  "longitude": 170.179492 // in degree, six decimal places
+  "latitude": -37.314852, // in degree, six decimal places
+  "longitude": 175.068489 // in degree, six decimal places
 }
 ```
 
