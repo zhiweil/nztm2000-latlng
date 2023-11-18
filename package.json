@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/zhiweil/nztm2000-latlng",
   "dependencies": {
-    "big.js": "^6.2.1",
     "decimal.js": "^10.4.3"
   }
 }

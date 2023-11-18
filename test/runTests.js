@@ -33,10 +33,18 @@ const northingEasting = [
 ];
 
 for (let ne of northingEasting) {
+  console.log(
+    "-------------------------------------------------------------------------"
+  );
+  console.log(`Original: (easting, northing) =(${ne.easting}, ${ne.northing})`);
   const resp = nzmg.nztm_geod(ne.easting, ne.northing);
-  console.log(`(latitude, longitude) =(${resp.latitude}, ${resp.longitude})`);
+  console.log(
+    `Converted: (latitude, longitude) =(${resp.latitude}, ${resp.longitude})`
+  );
   const resp1 = nzmg.geod_nztm(resp.latitude, resp.longitude);
-  console.log(`(easting, northing) = (${resp1.easting}, ${resp1.northing})`);
+  console.log(
+    `Converted: (easting, northing) = (${resp1.easting}, ${resp1.northing})`
+  );
 
   if (resp.easting == resp1.easting && resp.northing == resp1.northing) {
     console.log(
@@ -48,4 +56,7 @@ for (let ne of northingEasting) {
     );
   }
 }
+console.log(
+  "-------------------------------------------------------------------------"
+);
 console.log("Test Completed");
