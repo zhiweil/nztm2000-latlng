@@ -9,7 +9,10 @@
     "NZTM2000",
     "LINZ",
     "Latitude",
-    "Longitude"
+    "Longitude",
+    "easting",
+    "northing",
+    "Electricity Authority New Zealand"
   ],
   "author": "Zhiwei Liu <zhiwei.liu19@gmail.com>",
   "license": "MIT",
@@ -22,6 +25,7 @@
   },
   "homepage": "https://github.com/zhiweil/nztm2000-latlng",
   "dependencies": {
-    "big.js": "^6.2.1"
+    "big.js": "^6.2.1",
+    "decimal.js": "^10.4.3"
   }
 }
