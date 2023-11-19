@@ -16,7 +16,7 @@ const PI = Decimal("3.1415926535898");
 const TWOPI = PI.times(Decimal("2.0"));
 const rad2deg = Decimal("180").div(PI);
 
-// sig decimal points for all values
+// six decimal points for all values
 const FIXED_DP = 6;
 /***************************************************************************/
 /*                                                                         */
