@@ -384,7 +384,7 @@ const geod_tm = (tm, ln, lt) => {
   return { northing, easting };
 };
 
-/* Global that will be initialsed just one for efficiency */
+/* Global that will be initialsed just once for efficiency */
 let nztm_projection = null;
 const get_nztm_projection = () => {
   if (!nztm_projection) {
